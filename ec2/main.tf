@@ -39,4 +39,4 @@ resource "aws_instance" "jenkins-server" {
     root_block_device {
     volume_size = 9
   }
-}
+} 

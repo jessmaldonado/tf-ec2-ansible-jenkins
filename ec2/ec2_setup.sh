@@ -13,4 +13,4 @@ pwd
 ## Clone my repo
 git clone https://github.com/jessmaldonado/tf-ec2-ansible-jenkins.git
 cd ANSIBLE
-ansible-playbook -i localhost jenkins-playbook.yml
+ansible-playbook -i localhost jenkins-playbook.yml 

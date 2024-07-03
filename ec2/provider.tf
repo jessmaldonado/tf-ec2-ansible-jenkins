@@ -13,5 +13,5 @@ provider "aws" {
 }
 
 # Create VPC # --> This ain't create a new vpc, just use the default one
-resource "aws_default_vpc" "default" {
+resource "aws_default_vpc" "default" { 
 
