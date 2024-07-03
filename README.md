@@ -21,6 +21,22 @@ Pre-requisites (Locally):
  - Git
  - And clone this repository () to execute the playbook (jenkins-playbook.yml)
 
+## To validate the Ansible's installations access to the ec2 /var/log/user-data.log
 
+ansible --version
+
+cd /user/ubuntu
+- java -version
+- sudo systemctl status jenkins
+
+Check tasks playbook-installations in /var/log/     cat user-data.log  --> To watch the tasks playbook-installations
+
+Access Jenkins by the browser: [ec2-ip]:8080 to setup Jenkins
+
+Copy the path to get the administrator password and unlock Jenkins
+
+
+At the end, destroy the AWS resources
+terraform destroy --auto-approve
 
 
